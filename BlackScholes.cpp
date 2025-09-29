@@ -10,7 +10,7 @@ class BlackScholes{
     double sigma;
 
     double N(double x)const{
-        return 0.5 * erfc(-x/std::sqrt(2));
+        return 0.5 * erfc(-x/std::sqrt(2));;
 
     }
 
@@ -47,5 +47,6 @@ int main(){
     std::cout <<"Call Option Price "<<bs.callPrice()<<std::endl;;
     std::cout<< "Put Option Price "<<bs.putPice()<<std::endl;;
     return 0;
+
 
 }
