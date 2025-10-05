@@ -14,10 +14,11 @@ int main(){
     rate=rate/100;;
 
     std::cout<<"Enter the number of years:"<<std::endl;
-    std::cin>>years;    
+    std::cin>>years;;
 
     double FutureValue= principle*pow(1+rate ,years);
     std::cout<<"Future Value is:"<<FutureValue<< std::endl;
     return 0;;
+
 
 }
